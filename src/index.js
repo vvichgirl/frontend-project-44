@@ -26,6 +26,13 @@ export const getNumber = (minNumber, maxNumber) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
+export const gcd = (numberOne, numberTwo) => {
+  if (numberTwo > 0) {
+    return gcd(numberTwo, numberOne % numberTwo);
+  }
+  return numberOne;
+};
+
 export const runGame = (rule, getQuestionAnswer) => {
   const maxRound = 3;
   const correctMessage = 'Correct!';
