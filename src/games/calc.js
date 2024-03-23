@@ -2,7 +2,7 @@ import { getNumber, runGame } from '../index.js';
 
 const operations = ['-', '+', '*'];
 
-const getCorrectAnswer = (digitOne, mathOperation, digitTwo) => {
+const calc = (digitOne, mathOperation, digitTwo) => {
   switch (mathOperation) {
     case '-':
       return Number(digitOne) - Number(digitTwo);
@@ -21,9 +21,8 @@ const getQuestionAnswer = () => {
   const maxCountOperations = operations.length - 1;
   const mathOperation = operations[getNumber(0, maxCountOperations)];
   const question = `${digitOne} ${mathOperation} ${digitTwo}`;
-  let correctAnswer = getCorrectAnswer(digitOne, mathOperation, digitTwo);
-  correctAnswer = correctAnswer.toString();
-  return [question, correctAnswer];
+  let correctAnswer = calc(digitOne, mathOperation, digitTwo);
+  return [question, correctAnswer.toString()];
 };
 
 export default () => {
