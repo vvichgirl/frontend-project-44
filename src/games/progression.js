@@ -10,7 +10,7 @@ const getQuestionAnswer = () => {
   const progressionElements = [progressionStartNumber];
   for (let i = 0; i < progressionLength; i += 1) {
     const element = progressionElements.at(-1) + progressionStep;
-    progressionElements.push(element); 
+    progressionElements.push(element);
   }
   const correctAnswer = progressionElements[skipElement];
   progressionElements[skipElement] = '..';

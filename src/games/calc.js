@@ -21,7 +21,7 @@ const getQuestionAnswer = () => {
   const maxCountOperations = operations.length - 1;
   const mathOperation = operations[getNumber(0, maxCountOperations)];
   const question = `${digitOne} ${mathOperation} ${digitTwo}`;
-  let correctAnswer = calc(digitOne, mathOperation, digitTwo);
+  const correctAnswer = calc(digitOne, mathOperation, digitTwo);
   return [question, correctAnswer.toString()];
 };
 
