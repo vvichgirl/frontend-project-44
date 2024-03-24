@@ -33,6 +33,13 @@ export const gcd = (numberOne, numberTwo) => {
   return numberOne;
 };
 
+export const isPrime = (number) => {
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) return false;
+  }
+  return true;
+};
+
 export const runGame = (rule, getQuestionAnswer) => {
   const maxRound = 3;
   const correctMessage = 'Correct!';

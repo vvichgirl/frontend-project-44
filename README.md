@@ -5,3 +5,4 @@
 <p><a href="https://asciinema.org/a/HSKrcCfN3OImz33Tf7aH0atUa">Asciinema brain-calc game</a></p>
 <p><a href="https://asciinema.org/a/IuzWcM4Xxu37nWQmcfVtX5G30">Asciinema brain-gcd game</a></p>
 <p><a href="https://asciinema.org/a/4l48odYOeiaapRgbMwMU8DauC">Asciinema brain-progression game</a></p>
+<p><a href="https://asciinema.org/a/zuCujIqKcuLr4Tpcyx1qDSeaG">Asciinema brain-prime game</a></p>
