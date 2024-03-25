@@ -19,7 +19,7 @@ const getQuestionAnswer = () => {
   const digitOne = getNumber(minNumber, maxNumber);
   const digitTwo = getNumber(minNumber, maxNumber);
   const maxCountOperations = operations.length - 1;
-  const mathOperation = operations[getNumber(0, maxCountOperations)];
+  const mathOperation = operations[getNumber(minNumber, maxCountOperations)];
   const question = `${digitOne} ${mathOperation} ${digitTwo}`;
   const correctAnswer = calc(digitOne, mathOperation, digitTwo);
   return [question, correctAnswer.toString()];
