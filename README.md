@@ -17,8 +17,8 @@ Brain-prime: you need to determine whether a number is prime or not
 ```
 
 ### Game Demonstration
-<a href="https://asciinema.org/a/DBZyLBqu9NvGQdQlpjh9Kf7Zz">Brain-even game</a>
-<a href="https://asciinema.org/a/HSKrcCfN3OImz33Tf7aH0atUa">Brain-calc game</a>
-<a href="https://asciinema.org/a/IuzWcM4Xxu37nWQmcfVtX5G30">Brain-gcd game</a>
-<a href="https://asciinema.org/a/4l48odYOeiaapRgbMwMU8DauC">Brain-progression game</a>
-<a href="https://asciinema.org/a/zuCujIqKcuLr4Tpcyx1qDSeaG">Brain-prime game</a>
+<p><a href="https://asciinema.org/a/DBZyLBqu9NvGQdQlpjh9Kf7Zz">Brain-even game</a></p>
+<p><a href="https://asciinema.org/a/HSKrcCfN3OImz33Tf7aH0atUa">Brain-calc game</a></p>
+<p><a href="https://asciinema.org/a/IuzWcM4Xxu37nWQmcfVtX5G30">Brain-gcd game</a></p>
+<p><a href="https://asciinema.org/a/4l48odYOeiaapRgbMwMU8DauC">Brain-progression game</a></p>
+<p><a href="https://asciinema.org/a/zuCujIqKcuLr4Tpcyx1qDSeaG">Brain-prime game</a></p>
