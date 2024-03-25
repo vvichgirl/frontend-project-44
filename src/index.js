@@ -47,6 +47,7 @@ export const runGame = (rule, getQuestionAnswer) => {
   const userName = getName();
   const greeting = getGreeting(userName);
 
+  console.log('Welcome to the Brain Games!');
   console.log(greeting);
   console.log(rule);
 
